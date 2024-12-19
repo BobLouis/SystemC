@@ -1,0 +1,234 @@
+$date
+     Dec 19, 2024       04:03:41
+$end
+
+$version
+ SystemC 3.0.1-Accellera --- Dec 11 2024 10:07:27
+$end
+
+$timescale
+     1 ps
+$end
+
+$scope module SystemC $end
+$var wire    1  aaaaa  clock       $end
+$var wire    1  aaaab  start       $end
+$var wire    1  aaaac  timeout       $end
+$var wire   32  aaaad  count [31:0]  $end
+$upscope $end
+$enddefinitions  $end
+
+$comment
+All initial values are dumped below at time 0 sec = 0 timescale units.
+$end
+
+$dumpvars
+1aaaaa
+1aaaab
+1aaaac
+b0 aaaad
+$end
+
+#5000
+0aaaaa
+
+#10000
+1aaaaa
+0aaaac
+b101 aaaad
+
+#15000
+0aaaaa
+
+#20000
+1aaaaa
+
+#25000
+0aaaaa
+
+#30000
+1aaaaa
+0aaaab
+b100 aaaad
+
+#35000
+0aaaaa
+
+#40000
+1aaaaa
+b11 aaaad
+
+#45000
+0aaaaa
+
+#50000
+1aaaaa
+b10 aaaad
+
+#55000
+0aaaaa
+
+#60000
+1aaaaa
+b1 aaaad
+
+#65000
+0aaaaa
+
+#70000
+1aaaaa
+b0 aaaad
+
+#75000
+0aaaaa
+
+#80000
+1aaaaa
+1aaaab
+b101 aaaad
+
+#85000
+0aaaaa
+
+#90000
+1aaaaa
+0aaaab
+b100 aaaad
+
+#95000
+0aaaaa
+
+#100000
+1aaaaa
+b11 aaaad
+
+#105000
+0aaaaa
+
+#110000
+1aaaaa
+b10 aaaad
+
+#115000
+0aaaaa
+
+#120000
+1aaaaa
+b1 aaaad
+
+#125000
+0aaaaa
+
+#130000
+1aaaaa
+b0 aaaad
+
+#135000
+0aaaaa
+
+#140000
+1aaaaa
+1aaaac
+
+#145000
+0aaaaa
+
+#150000
+1aaaaa
+
+#155000
+0aaaaa
+
+#160000
+1aaaaa
+
+#165000
+0aaaaa
+
+#170000
+1aaaaa
+
+#175000
+0aaaaa
+
+#180000
+1aaaaa
+
+#185000
+0aaaaa
+
+#190000
+1aaaaa
+
+#195000
+0aaaaa
+
+#200000
+1aaaaa
+
+#205000
+0aaaaa
+
+#210000
+1aaaaa
+
+#215000
+0aaaaa
+
+#220000
+1aaaaa
+
+#225000
+0aaaaa
+
+#230000
+1aaaaa
+
+#235000
+0aaaaa
+
+#240000
+1aaaaa
+
+#245000
+0aaaaa
+
+#250000
+1aaaaa
+1aaaab
+0aaaac
+b101 aaaad
+
+#255000
+0aaaaa
+
+#260000
+1aaaaa
+0aaaab
+b100 aaaad
+
+#265000
+0aaaaa
+
+#270000
+1aaaaa
+b11 aaaad
+
+#275000
+0aaaaa
+
+#280000
+1aaaaa
+b10 aaaad
+
+#285000
+0aaaaa
+
+#290000
+1aaaaa
+b1 aaaad
+
+#295000
+0aaaaa
+
+#300000
