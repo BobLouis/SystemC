@@ -1,0 +1,88 @@
+$date
+     Dec 26, 2024       04:44:22
+$end
+
+$version
+ SystemC 3.0.1-Accellera --- Dec 11 2024 10:07:27
+$end
+
+$timescale
+     1 ps
+$end
+
+$scope module SystemC $end
+$var wire    1  aaaaa  half_adder_A       $end
+$var wire    1  aaaab  half_adder_B       $end
+$var wire    1  aaaac  half_adder_Sum       $end
+$var wire    1  aaaad  half_adder_Carry       $end
+$var wire    1  aaaae  full_adder_A       $end
+$var wire    1  aaaaf  full_adder_B       $end
+$var wire    1  aaaag  full_adder_Cin       $end
+$var wire    1  aaaah  full_adder_S       $end
+$var wire    1  aaaai  full_adder_Cout       $end
+$upscope $end
+$enddefinitions  $end
+
+$comment
+All initial values are dumped below at time 0 sec = 0 timescale units.
+$end
+
+$dumpvars
+0aaaaa
+0aaaab
+0aaaac
+0aaaad
+0aaaae
+0aaaaf
+0aaaag
+0aaaah
+0aaaai
+$end
+
+#2000
+1aaaab
+1aaaac
+
+#3000
+1aaaaa
+0aaaab
+
+#4000
+1aaaab
+0aaaac
+1aaaad
+
+#6000
+1aaaag
+1aaaah
+
+#7000
+1aaaaf
+0aaaag
+
+#8000
+1aaaag
+0aaaah
+1aaaai
+
+#9000
+1aaaae
+0aaaaf
+0aaaag
+1aaaah
+0aaaai
+
+#10000
+1aaaag
+0aaaah
+1aaaai
+
+#11000
+1aaaaf
+0aaaag
+
+#12000
+1aaaag
+1aaaah
+
+#13000
